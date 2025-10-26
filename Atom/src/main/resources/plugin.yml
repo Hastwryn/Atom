@@ -1,0 +1,19 @@
+name: Adam
+main: me.hastwryn.atom.Main
+version: 1.0
+api-version: 1.20
+
+
+commands:
+  class:
+    description: Show your class XP and levels
+    usage: /class
+  classxp:
+    description: Manage player XP for specific classes.
+    usage: /classxp <reset|add|remove> <username> <class> <number>
+    permission: adam.classxp
+    permission-message: You do not have permission to use this command.
+permissions:
+  adam.classxp:
+    description: Allows use of /classxp command
+    default: op

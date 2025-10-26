@@ -1,0 +1,52 @@
+xp-balance-factor: 4.0
+
+level-requirements:
+  MINER:
+    1: 0
+    2: 250
+    3: 600
+    4: 1200
+    5: 2400
+
+  BLACKSMITH:
+    1: 0
+    2: 200
+    3: 500
+    4: 1000
+    5: 2000
+
+  FARMER:
+    1: 0
+    2: 150
+    3: 400
+    4: 800
+    5: 1600
+
+  LIBRARIAN:
+    1: 0
+    2: 300
+    3: 700
+    4: 1400
+
+  GUARDSMAN:
+    1: 0
+    2: 350
+    3: 800
+    4: 1600
+
+  BUILDER:
+    1: 100
+    2: 250
+    3: 600
+    4: 1200
+
+  HEALER:
+    1: 0
+    2: 220
+    3: 500
+    4: 1000
+
+
+
+
+# Class XP plugin config
