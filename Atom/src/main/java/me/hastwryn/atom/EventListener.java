@@ -215,7 +215,7 @@ public class EventListener implements Listener {
     }
 
 
-    // Block interactions (needs re do)
+    // Block interactions
     @EventHandler
     public void onBlockInteract(PlayerInteractEvent event) {
         if (event.getAction() != Action.RIGHT_CLICK_BLOCK) return;
